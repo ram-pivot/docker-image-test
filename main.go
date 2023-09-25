@@ -1,9 +1,7 @@
 package main
 
-import (
-	"my-project/helper"
-)
+import "fmt"
 
 func main() {
-	helper.Help()
+	fmt.Println("hello world")
 }

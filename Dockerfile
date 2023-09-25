@@ -1,4 +1,4 @@
-FROM bosh/golang-release
+FROM harbor-repo.vmware.com/dockerhub-proxy-cache/bosh/golang-release
 
 RUN \
   apt-get update \
